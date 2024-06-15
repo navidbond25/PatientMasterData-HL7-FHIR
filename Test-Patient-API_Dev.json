@@ -1,0 +1,92 @@
+{
+  "uuid": "5d722aa6-65a5-4445-aa1d-cd281e8919f5",
+  "lastMigration": 32,
+  "name": "Test Patient API Dev",
+  "endpointPrefix": "",
+  "latency": 0,
+  "port": 3001,
+  "hostname": "",
+  "folders": [],
+  "routes": [
+    {
+      "uuid": "5152c50a-2af4-4d59-9146-b8a4d31862e8",
+      "type": "http",
+      "documentation": "",
+      "method": "post",
+      "endpoint": "fhir/Person",
+      "responses": [
+        {
+          "uuid": "c7d8ded4-b9bb-41a5-9cc9-80b5d5c01f04",
+          "body": "{\r\n    \"resourceType\": \"Patient\",\r\n    \"name\": [\r\n        {\r\n            \"family\": \"Doe\",\r\n            \"given\": [\"John\"]\r\n        }\r\n    ],\r\n    \"birthDate\": \"1954-01-01\"\r\n}",
+          "latency": 0,
+          "statusCode": 201,
+          "label": "",
+          "headers": [],
+          "bodyType": "INLINE",
+          "filePath": "",
+          "databucketID": "",
+          "sendFileAsBody": false,
+          "rules": [],
+          "rulesOperator": "OR",
+          "disableTemplating": false,
+          "fallbackTo404": false,
+          "default": true,
+          "crudKey": "id",
+          "callbacks": []
+        }
+      ],
+      "responseMode": null
+    }
+  ],
+  "rootChildren": [
+    {
+      "type": "route",
+      "uuid": "5152c50a-2af4-4d59-9146-b8a4d31862e8"
+    }
+  ],
+  "proxyMode": false,
+  "proxyHost": "",
+  "proxyRemovePrefix": false,
+  "tlsOptions": {
+    "enabled": false,
+    "type": "CERT",
+    "pfxPath": "",
+    "certPath": "",
+    "keyPath": "",
+    "caPath": "",
+    "passphrase": ""
+  },
+  "cors": true,
+  "headers": [
+    {
+      "key": "Content-Type",
+      "value": "application/json"
+    },
+    {
+      "key": "Access-Control-Allow-Origin",
+      "value": "*"
+    },
+    {
+      "key": "Access-Control-Allow-Methods",
+      "value": "GET,POST,PUT,PATCH,DELETE,HEAD,OPTIONS"
+    },
+    {
+      "key": "Access-Control-Allow-Headers",
+      "value": "Content-Type, Origin, Accept, Authorization, Content-Length, X-Requested-With"
+    }
+  ],
+  "proxyReqHeaders": [
+    {
+      "key": "",
+      "value": ""
+    }
+  ],
+  "proxyResHeaders": [
+    {
+      "key": "",
+      "value": ""
+    }
+  ],
+  "data": [],
+  "callbacks": []
+}
