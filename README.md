@@ -1,6 +1,6 @@
 # FHIR to Proprietary API Facade
 
-# Eine Anwendung, die einen Endpunkt für die Erstellung eines neuen Patientenstammdatensatzes gemäß der Spezifikation von HL7 FHIR R4 bereitstellt
+## Eine Anwendung, die einen Endpunkt für die Erstellung eines neuen Patientenstammdatensatzes gemäß der Spezifikation von HL7 FHIR R4 bereitstellt
 
 ## Installation
 1. Clone the repository
