@@ -11,7 +11,7 @@
 ## Nutzung
 1. Starten Sie Mockoon und importieren Sie die `Test-Patient-API_Dev.json`-Datei.
 2. Starten Sie den Mock-Server auf Port 3001.
-3. Senden Sie eine POST-Anfrage an `http://localhost:8080/Patient` mit der Beispiel-FHIR-Ressource.
+3. Senden Sie eine POST-Anfrage an `http://localhost:8080/fhir/Patient` mit der Beispiel-FHIR-Ressource.
 
 ## Beispiel-FHIR-Ressource
 Verwenden Sie die Beispiel-FHIR-Ressource `Beispiel-FHIR-Ressource-Patient.json` als Anfragekörper.
