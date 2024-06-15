@@ -15,6 +15,3 @@
 
 ## Beispiel-FHIR-Ressource
 Verwenden Sie die Beispiel-FHIR-Ressource `Beispiel-FHIR-Ressource-Patient.json` als Anfragekörper.
-
-## Entwicklermodus
-Um die Anwendung zu entwickeln, folgen Sie den üblichen Schritten zur Java/Spring Boot Entwicklung. Stellen Sie sicher, dass Sie sinnvolle Commits und Commit-Nachrichten verwenden.
