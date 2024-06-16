@@ -79,12 +79,12 @@ Verwenden Sie die Beispiel-FHIR-Ressource `Beispiel-FHIR-Ressource-Patient.json`
 
 Das Projekt ist in mehrere Pakete unterteilt, um eine klare Trennung der Verantwortlichkeiten zu gewährleisten: <br />
 
-    controller: Enthält den FHIR Controller. <br />
+    controller: Enthält den FHIR Controller. 
     service: Beinhaltet die Logik zur Verarbeitung der FHIR-Ressourcen.
 
 ## Fehlerbehandlung
 Die Anwendung behandelt Fehlerfälle, indem sie Statuscodes interpretiert und entsprechende Nachrichten zurückgibt: <br />
 
-    Erfolgreiche Anlage: Statuscode 201 <br />
+    Erfolgreiche Anlage: Statuscode 201 
     Fehlerhafte Anlage: Statuscode 500 oder andere Fehlercodes ≥ 400
 
