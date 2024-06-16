@@ -2,7 +2,7 @@
 
 ### Diese Anwendung implementiert eine Fassade, die einen Endpunkt zur Erstellung eines neuen Patientenstammdatensatzes gemäß der HL7 FHIR R4 Spezifikation bereitstellt. Bei der Anlieferung von Patientenstammdaten werden bestimmte Eigenschaften extrahiert und an eine proprietäre REST-API weitergeleitet, um einen Patienteneintrag in einem externen System anzulegen. Abhängig von der Antwort des externen Systems gibt die Fassade eine entsprechende Rückmeldung an den FHIR-Client.
 
-## Installation
+# Installation
 
 ## Voraussetzungen
 
@@ -28,7 +28,7 @@
 
 ## Nutzung
 
-## Mockoon zur Simulation der proprietären API
+### Mockoon zur Simulation der proprietären API
 Um die proprietäre API zu simulieren, verwenden wir Mockoon. Folgen Sie diesen Schritten: <br />
 
 1. Mockoon starten: <br />
@@ -38,7 +38,7 @@ Um die proprietäre API zu simulieren, verwenden wir Mockoon. Folgen Sie diesen 
 2. Mock-Server starten: <br />
     Starten Sie den Mock-Server auf Port 3001.
 
-## Postman zur API-Testung
+### Postman zur API-Testung
 Verwenden Sie Postman, um Ihre API-Endpunkte zu testen. Folgen Sie diesen Schritten:
 
 1. Postman öffnen: <br />
@@ -72,7 +72,7 @@ Verwenden Sie Postman, um Ihre API-Endpunkte zu testen. Folgen Sie diesen Schrit
     Statuscode: Stellen Sie sicher, dass Sie den erwarteten Statuscode zurückerhalten. Bei erfolgreicher Erstellung sollte dies `201 Created` sein. <br />
     Antwortinhalt: Überprüfen Sie den Inhalt der Antwortnachricht, um sicherzustellen, dass die Patientenerstellung erfolgreich war.
 
-## Beispiel-FHIR-Ressource
+### Beispiel-FHIR-Ressource
 Verwenden Sie die Beispiel-FHIR-Ressource `Beispiel-FHIR-Ressource-Patient.json` als Anfragekörper.
 
 
