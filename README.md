@@ -67,6 +67,7 @@ Verwenden Sie Postman, um Ihre API-Endpunkte zu testen. Folgen Sie diesen Schrit
     Postman zeigt die Antwort des Servers im unteren Bereich des Fensters an. Überprüfen Sie die folgenden Punkte: <br />
 
     Statuscode: Stellen Sie sicher, dass Sie den erwarteten Statuscode zurückerhalten. Bei erfolgreicher Erstellung sollte dies `201 Created` sein. <br />
+    
     Antwortinhalt: Überprüfen Sie den Inhalt der Antwortnachricht, um sicherzustellen, dass die Patientenerstellung erfolgreich war.
 
 ## Beispiel-FHIR-Ressource
