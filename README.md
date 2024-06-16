@@ -26,13 +26,13 @@
 ## Nutzung
 
 ## Mockoon zur Simulation der proprietären API
-Um die proprietäre API zu simulieren, verwenden wir Mockoon. Folgen Sie diesen Schritten:
+Um die proprietäre API zu simulieren, verwenden wir Mockoon. Folgen Sie diesen Schritten: <br />
 
-1. Mockoon starten:
-    Laden Sie Mockoon herunter und installieren Sie es von mockoon.com
+1. Mockoon starten: <br />
+    Laden Sie Mockoon herunter und installieren Sie es von mockoon.com <br />
     Starten Sie Mockoon und importieren Sie die bereitgestellte Datei `Test-Patient-API_Dev.json`
 
-2. Mock-Server starten:
+2. Mock-Server starten: <br />
     Starten Sie den Mock-Server auf Port 3001.
 
 ## Postman zur API-Testung
