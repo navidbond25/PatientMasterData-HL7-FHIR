@@ -13,12 +13,15 @@
 1. Repository klonen <br />
     Klonen Sie das Repository auf Ihren lokalen Rechner: <br />
         `git clone <repository-url>`
+   
 2. In das Projektverzeichnis wechseln <br />
     Wechseln Sie in das Verzeichnis des geklonten Projekts: <br />
         `cd <project-directory>`
+   
 3. Projekt bauen <br />
     Bauen Sie das Projekt mit Maven: <br />
         Run `mvn clean install`
+   
 4. Anwendung starten <br />
     Starten Sie die Spring Boot Anwendung: <br />
         `mvn spring-boot:run`
