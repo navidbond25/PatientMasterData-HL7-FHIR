@@ -12,10 +12,10 @@
 
 1. Repository klonen <br />
     Klonen Sie das Repository auf Ihren lokalen Rechner:
-        git clone <repository-url>
+        `git clone <repository-url>`
 2. In das Projektverzeichnis wechseln
     Wechseln Sie in das Verzeichnis des geklonten Projekts:
-        cd <project-directory>
+        `cd <project-directory>`
 3. Projekt bauen
     Bauen Sie das Projekt mit Maven:
         Run `mvn clean install`
