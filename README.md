@@ -38,35 +38,35 @@ Um die proprietäre API zu simulieren, verwenden wir Mockoon. Folgen Sie diesen 
 ## Postman zur API-Testung
 Verwenden Sie Postman, um Ihre API-Endpunkte zu testen. Folgen Sie diesen Schritten:
 
-1. Postman öffnen:
+1. Postman öffnen: <br />
     Starten Sie Postman nach der Installation.
 
-2. Neue Anfrage erstellen:
-    Klicken Sie auf `New` und wählen Sie `Request` aus.
-    Geben Sie der Anfrage einen Namen, z.B. "Create Patient".
+2. Neue Anfrage erstellen: <br />
+    Klicken Sie auf `New` und wählen Sie `Request` aus. <br />
+    Geben Sie der Anfrage einen Namen, z.B. "Create Patient". <br />
     Erstellen Sie eine neue Sammlung (Collection) oder wählen Sie eine bestehende aus, um Ihre Anfrage zu speichern.
 
-3. Anfrage konfigurieren:
-    Wählen Sie den HTTP-Methodentyp `POST` aus.
-    Geben Sie die URL Ihres Endpunkts ein: `http://localhost:8080/fhir/Patient`.
+3. Anfrage konfigurieren: <br />
+    Wählen Sie den HTTP-Methodentyp `POST` aus. <br />
+    Geben Sie die URL Ihres Endpunkts ein: `http://localhost:8080/fhir/Patient`. <br />
     Stellen Sie sicher, dass der Endpunkt Ihrer laufenden Spring Boot Anwendung entspricht.
 
-4. Header hinzufügen:
-    Gehen Sie zum Tab `Headers`.
+4. Header hinzufügen: <br />
+    Gehen Sie zum Tab `Headers`. <br />
     Fügen Sie einen neuen Header hinzu: `Content-Type` mit dem Wert `application/json`.
 
-5. Wechseln Sie zum Tab Body.
-    Wählen Sie die Option raw aus.
-    Stellen Sie sicher, dass der Datentyp auf JSON gesetzt ist.
+5. Wechseln Sie zum Tab Body. <br />
+    Wählen Sie die Option raw aus. <br />
+    Stellen Sie sicher, dass der Datentyp auf JSON gesetzt ist. <br />
     Fügen Sie den Inhalt Ihrer Beispiel-FHIR-Ressource `Beispiel-FHIR-Ressource-Patient.json` in das Textfeld ein als Anfragekörper.
 
-6. Anfrage senden:
+6. Anfrage senden: <br />
     Klicken Sie auf `Send`, um die Anfrage zu senden. Postman wird die Anfrage an Ihren Endpunkt schicken und die Antwort anzeigen.
 
-7. Überprüfen der Antwort:
-    Postman zeigt die Antwort des Servers im unteren Bereich des Fensters an. Überprüfen Sie die folgenden Punkte:
+7. Überprüfen der Antwort: <br />
+    Postman zeigt die Antwort des Servers im unteren Bereich des Fensters an. Überprüfen Sie die folgenden Punkte: <br />
 
-    Statuscode: Stellen Sie sicher, dass Sie den erwarteten Statuscode zurückerhalten. Bei erfolgreicher Erstellung sollte dies `201 Created` sein.
+    Statuscode: Stellen Sie sicher, dass Sie den erwarteten Statuscode zurückerhalten. Bei erfolgreicher Erstellung sollte dies `201 Created` sein. <br />
     Antwortinhalt: Überprüfen Sie den Inhalt der Antwortnachricht, um sicherzustellen, dass die Patientenerstellung erfolgreich war.
 
 ## Beispiel-FHIR-Ressource
@@ -77,14 +77,14 @@ Verwenden Sie die Beispiel-FHIR-Ressource `Beispiel-FHIR-Ressource-Patient.json`
 
 ## Projektstruktur
 
-Das Projekt ist in mehrere Pakete unterteilt, um eine klare Trennung der Verantwortlichkeiten zu gewährleisten:
+Das Projekt ist in mehrere Pakete unterteilt, um eine klare Trennung der Verantwortlichkeiten zu gewährleisten: <br />
 
-    controller: Enthält den FHIR Controller.
+    controller: Enthält den FHIR Controller. <br />
     service: Beinhaltet die Logik zur Verarbeitung der FHIR-Ressourcen.
 
 ## Fehlerbehandlung
-Die Anwendung behandelt Fehlerfälle, indem sie Statuscodes interpretiert und entsprechende Nachrichten zurückgibt:
+Die Anwendung behandelt Fehlerfälle, indem sie Statuscodes interpretiert und entsprechende Nachrichten zurückgibt: <br />
 
-    Erfolgreiche Anlage: Statuscode 201
+    Erfolgreiche Anlage: Statuscode 201 <br />
     Fehlerhafte Anlage: Statuscode 500 oder andere Fehlercodes ≥ 400
 
