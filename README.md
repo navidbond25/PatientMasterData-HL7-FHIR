@@ -10,7 +10,7 @@
     - Maven
     - Mockoon oder Postman (für die Simulation der proprietären API)
 
-1. Repository klonen
+1. Repository klonen <br />
     Klonen Sie das Repository auf Ihren lokalen Rechner:
         git clone <repository-url>
 2. In das Projektverzeichnis wechseln
