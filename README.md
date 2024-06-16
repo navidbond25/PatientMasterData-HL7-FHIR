@@ -1,8 +1,8 @@
 # FHIR to Proprietary API Facade
 
-### Diese Anwendung implementiert eine Fassade, die einen Endpunkt zur Erstellung eines neuen Patientenstammdatensatzes gemäß der HL7 FHIR R4 Spezifikation bereitstellt. Bei der Anlieferung von Patientenstammdaten werden bestimmte Eigenschaften extrahiert und an eine proprietäre REST-API weitergeleitet, um einen Patienteneintrag in einem externen System anzulegen. Abhängig von der Antwort des externen Systems gibt die Fassade eine entsprechende Rückmeldung an den FHIR-Client.
+#### Diese Anwendung implementiert eine Fassade, die einen Endpunkt zur Erstellung eines neuen Patientenstammdatensatzes gemäß der HL7 FHIR R4 Spezifikation bereitstellt. Bei der Anlieferung von Patientenstammdaten werden bestimmte Eigenschaften extrahiert und an eine proprietäre REST-API weitergeleitet, um einen Patienteneintrag in einem externen System anzulegen. Abhängig von der Antwort des externen Systems gibt die Fassade eine entsprechende Rückmeldung an den FHIR-Client.
 
-## Installation
+### Installation
 
 ## Voraussetzungen
 
